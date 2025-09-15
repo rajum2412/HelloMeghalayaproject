@@ -1,0 +1,55 @@
+15:03:39.399 [main] INFO  testCases.TC008_ContentDetailsPage - Like and trailer button test is passed
+15:09:05.745 [main] INFO  testCases.TC008_ContentDetailsPage - URL is opened
+15:09:08.149 [main] INFO  testCases.TC008_ContentDetailsPage - Content details page test is passed
+15:09:11.419 [main] INFO  testCases.TC008_ContentDetailsPage - Watch now button test is passed
+15:09:14.635 [main] INFO  testCases.TC008_ContentDetailsPage - Cancel button test is passed
+15:09:15.135 [main] INFO  testCases.TC008_ContentDetailsPage - Add to list button test is passed
+15:09:27.524 [main] INFO  testCases.TC008_ContentDetailsPage - Share and like button test is passed
+15:09:29.961 [main] INFO  testCases.TC008_ContentDetailsPage - Like and trailer button test is passed
+15:11:04.117 [main] INFO  testCases.TC008_ContentDetailsPage - URL is opened
+15:11:06.535 [main] INFO  testCases.TC008_ContentDetailsPage - Content details page test is passed
+15:11:09.787 [main] INFO  testCases.TC008_ContentDetailsPage - Watch now button test is passed
+15:11:13.005 [main] INFO  testCases.TC008_ContentDetailsPage - Cancel button test is passed
+15:11:13.530 [main] INFO  testCases.TC008_ContentDetailsPage - Add to list button test is passed
+15:11:25.899 [main] INFO  testCases.TC008_ContentDetailsPage - Share and like button test is passed
+15:11:28.410 [main] INFO  testCases.TC008_ContentDetailsPage - Like and trailer button test is passed
+15:18:48.655 [main] INFO  testCases.TC008_ContentDetailsPage - URL is opened
+15:18:51.763 [main] INFO  testCases.TC008_ContentDetailsPage - Content details page test is passed
+15:18:54.998 [main] INFO  testCases.TC008_ContentDetailsPage - Watch now button test is passed
+15:18:58.205 [main] INFO  testCases.TC008_ContentDetailsPage - Cancel button test is passed
+15:18:58.767 [main] INFO  testCases.TC008_ContentDetailsPage - Add to list button test is passed
+15:19:11.191 [main] INFO  testCases.TC008_ContentDetailsPage - Share and like button test is passed
+15:19:13.629 [main] INFO  testCases.TC008_ContentDetailsPage - Like and trailer button test is passed
+15:19:15.740 [main] INFO  testCases.TC008_ContentDetailsPage - Recommended text test is passed
+15:19:17.994 [main] INFO  testCases.TC008_ContentDetailsPage - Next button test is passed
+15:19:20.215 [main] INFO  testCases.TC008_ContentDetailsPage - Previous button test is passed
+15:19:29.059 [main] INFO  testCases.TC008_ContentDetailsPage - See all button test is passed
+16:00:48.986 [main] INFO  testCases.TC002_Emaillogin - Starting email login test
+16:04:12.570 [main] INFO  testCases.TC002_Emaillogin - Starting email login test
+16:28:42.806 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Login button
+16:28:43.014 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Forgot Password link
+16:28:43.338 [main] INFO  testCases.TC003_ForgotPasswordMobile - Entered mobile number
+16:32:27.896 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Login button
+16:32:27.973 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Forgot Password link
+16:32:28.067 [main] INFO  testCases.TC003_ForgotPasswordMobile - Entered mobile number
+16:36:30.387 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Login button
+16:36:30.586 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Forgot Password link
+16:36:30.856 [main] INFO  testCases.TC003_ForgotPasswordMobile - Entered mobile number
+16:36:31.032 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Next button
+16:51:40.356 [main] INFO  testCases.TC002_Emaillogin - Starting email login test
+16:52:02.713 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Login button
+16:52:02.825 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Forgot Password link
+16:52:02.960 [main] INFO  testCases.TC003_ForgotPasswordMobile - Entered mobile number
+16:52:03.019 [main] INFO  testCases.TC003_ForgotPasswordMobile - Clicked on Next button
+16:52:56.500 [main] INFO  testCases.TC005_TopTabsClick - Selected a language
+16:53:12.512 [main] INFO  testCases.TC005_TopTabsClick - Clicked on save button
+16:53:21.880 [main] INFO  testCases.TC005_TopTabsClick - Clicked on trailer button
+16:53:23.893 [main] INFO  testCases.TC005_TopTabsClick - Top tabs click test completed
+16:54:06.998 [main] INFO  testCases.TC006_BottomTabs - Clicked on Instagram icon
+16:54:09.146 [main] INFO  testCases.TC006_BottomTabs - Clicked on Facebook icon
+16:54:11.250 [main] INFO  testCases.TC006_BottomTabs - Clicked on Playstore icon
+16:54:13.251 [main] INFO  testCases.TC006_BottomTabs - Bottom tabs click test completed
+16:54:32.991 [main] INFO  testCases.TC007_SearchPage - URL is opened
+16:54:35.137 [main] INFO  testCases.TC007_SearchPage - Search icon is displayed
+16:54:35.168 [main] INFO  testCases.TC007_SearchPage - Trending search text is displayed
+16:54:35.187 [main] INFO  testCases.TC007_SearchPage - Trending search text is matched

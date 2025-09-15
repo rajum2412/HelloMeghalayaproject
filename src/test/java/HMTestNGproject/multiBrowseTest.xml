@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" thread-count="5">
+
+    <listeners>
+         
+         <listener class-name="HMTestNGproject.ExtentReportManager"/>
+    </listeners>
+       
+  <test name="ChromeTest">
+  <parameters>
+      <parameter name="os" value="Windows"/>
+      <parameter name="browser" value="Chrome"/>
+      <parameter name="url" value="https://www.example.com"/>
+      <parameter name="username" value="testuser"/>
+      <parameter name="password" value="testpass"/>
+  </parameters>
+    <classes>
+      <class name="HMTestNGproject.LoginPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="firefoxTest">
+  <parameters>
+      <parameter name="os" value="Windows"/>
+      <parameter name="browser" value="Firefox"/>
+      <parameter name="url" value="https://www.example.com"/>
+      <parameter name="username" value="testuser"/>
+      <parameter name="password" value="testpass"/>
+  </parameters>
+    <classes>
+      <class name="HMTestNGproject.LoginPage"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="edgeTest">
+  <parameters>
+      <parameter name="os" value="Windows"/>
+      <parameter name="browser" value="edge"/>
+      <parameter name="url" value="https://www.example.com"/>
+      <parameter name="username" value="testuser"/>
+      <parameter name="password" value="testpass"/>
+  </parameters>
+    <classes>
+      <class name="HMTestNGproject.LoginPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" thread-count="5">
+
+    <listeners>
+         
+         <listener class-name="HMTestNGproject.ExtentReportManager"/>
+        
+         
+    </listeners>
+       
+  <test name="ChromeTest">
+  <parameters>
+      <parameter name="os" value="Windows"/>
+      <parameter name="browser" value="Chrome"/>
+      <parameter name="url" value="https://www.example.com"/>
+      <parameter name="username" value="testuser"/>
+      <parameter name="password" value="testpass"/>
+  </parameters>
+    <classes>
+      <class name="testCases.TC001_MobileLogin"/>
+      <class name="testCases.TC002_Emaillogin"/>
+      <class name="testCases.TC003_ForgotPasswordMobile"/>
+      <class name="testCases.TC004_Logout"/> 
+      <class name="testCases.TC005_TopTabsClick"/> 
+      <class name="testCases.TC006_BottomTabs"/> 
+      <class name="testCases.TC007_SearchPage"/>
+       <class name="testCases.TC008_ContentDetailsPage"/> 
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
