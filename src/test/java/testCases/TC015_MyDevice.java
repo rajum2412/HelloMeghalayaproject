@@ -22,12 +22,13 @@ public class TC015_MyDevice extends BaseClass {
 		myprofile.updateProfile();
 		myprofile.myProfile();	
 		
-		MyDevicePage mydevice = new MyDevicePage(driver);
+		MyDevicePage mydevice = new MyDevicePage(driver); 
+		mydevice.clickOnAccount();
 		mydevice.clickMyDevice();
 		Thread.sleep(2000);
 		
 		 // Get and print the list of devices
-		String devices = mydevice.getListOfDevices();
+		int devices = mydevice.getListOfDevices();
 		System.out.println("List of devices logged in:\n" + devices);
 		
 		 // Get and print the count of devices
@@ -38,8 +39,8 @@ public class TC015_MyDevice extends BaseClass {
 		Thread.sleep(2000);
 				
 		 // Get and print the updated list of devices
-		String updatedDevices = mydevice.getListOfDevices();
-		System.out.println("Updated list of devices logged in:\n" + updatedDevices);
+		int updatedDevices = mydevice.getListOfDevices();
+		System.out.println("Updated list of devices logged in after logout of any device:\n" + updatedDevices);
 		
 		 // Get and print the updated count of devices
 		mydevice.getCountOfDevices();

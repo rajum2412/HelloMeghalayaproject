@@ -27,5 +27,4 @@ public class TC002_Emaillogin extends BaseClass {
 		}
 		
 	}
-
 }

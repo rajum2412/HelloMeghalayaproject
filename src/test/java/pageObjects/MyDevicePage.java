@@ -1,9 +1,12 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class MyDevicePage extends BasePage {
 
@@ -12,13 +15,12 @@ public class MyDevicePage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath="//span[@class='mat-expansion-indicator ng-tns-c94-30 ng-trigger ng-trigger-indicatorRotate ng-star-inserted']")
+	@FindBy(xpath="//app-user[@class='ng-star-inserted']//li[4]")
 	WebElement accounts;
 	@FindBy(xpath="//a[normalize-space()='My Devices']")
 	WebElement myDevice;
-	
 	@FindBy(xpath="//div[@class='staticPageDetails padding-top-35']//div")
-	WebElement listOfDevices;
+	List<WebElement> listOfDevices;
 	@FindBy(xpath="//div[contains(@class,'staticPageDetails padding-top-35')]//div[1]//img[1]")
 	WebElement firstdevicelogoutbutton;
 	@FindBy(xpath="//button[normalize-space()='Logout All Devices']")
@@ -28,23 +30,23 @@ public class MyDevicePage extends BasePage {
 	public void clickOnAccount() throws InterruptedException {
 		accounts.click();
 		Thread.sleep(2000);
-	// mouse hover to accounts and then click my device
-//		Actions actions = new Actions(driver);
-//		actions.moveToElement(accounts).perform();
 	}
 	public void clickMyDevice() {
 		myDevice.click();
+		
 	}
 	
-	public String getListOfDevices() {
-		return listOfDevices.getText();
+	public int getListOfDevices() {
+		return listOfDevices.size();
 	}
 	public void getCountOfDevices() {
-		int count = listOfDevices.getText().split("\n").length;
+		int count = listOfDevices.size();
 		System.out.println("Number of devices logged in: " + count);
+		for (WebElement ele : listOfDevices ) 
+            System.out.println(ele.getText());
 	}
 	public void clickDeviceLogoutButton() {
-		int count = listOfDevices.getText().split("\n").length;
+		int count = listOfDevices.size();
 		if (count > 2) {
 		firstdevicelogoutbutton.click();
 		}else if(count == 2) {

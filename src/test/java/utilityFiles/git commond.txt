@@ -1,0 +1,15 @@
+git config --global user.name "Your Name"
+git config --global user.email "Your Email"
+
+git add -A" // ADD all changes
+git add filename  // ADD specific file
+git add *.java  // ADD all Java files
+git add foldername/  // ADD all files in a specific folder
+git log  // VIEW commit history
+git add -p  // INTERACTIVELY add changes
+git commit -m "Your commit message"  // COMMIT changes
+git push origin main  // PUSH changes to remote repository
+git pull origin main  // PULL changes from remote repository
+git status  // CHECK the status of your repository
+git remote add origin "https://github.com/rajum2412/HelloMeghalayaproject.git"  // ADD a remote repository
+
